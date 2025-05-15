@@ -37,6 +37,7 @@
   "resources":[
     {"id":{"name":"O_coliderBoing","path":"objects/O_coliderBoing/O_coliderBoing.yy",},},
     {"id":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},},
+    {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"S_collider","path":"sprites/S_collider/S_collider.yy",},},
     {"id":{"name":"S_Player","path":"sprites/S_Player/S_Player.yy",},},
@@ -45,6 +46,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
