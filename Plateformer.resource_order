@@ -17,8 +17,11 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"O_colider","order":2,"path":"objects/O_colider/O_colider.yy",},
+    {"name":"O_colliderManager","order":3,"path":"objects/O_colliderManager/O_colliderManager.yy",},
     {"name":"O_Player","order":1,"path":"objects/O_Player/O_Player.yy",},
     {"name":"Menu","order":1,"path":"rooms/Menu/Menu.yy",},
     {"name":"S_collider","order":1,"path":"sprites/S_collider/S_collider.yy",},
+    {"name":"S_colliderMain","order":3,"path":"sprites/S_colliderMain/S_colliderMain.yy",},
   ],
 }
