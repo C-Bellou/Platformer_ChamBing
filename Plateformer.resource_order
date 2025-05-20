@@ -5,9 +5,9 @@
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
-    {"name":"Manager","order":3,"path":"folders/Objects/Manager.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
+    {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
     {"name":"Sequences","order":11,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
@@ -17,12 +17,8 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"O_buttonPlay","order":4,"path":"objects/O_buttonPlay/O_buttonPlay.yy",},
-    {"name":"O_colider","order":5,"path":"objects/O_colider/O_colider.yy",},
     {"name":"O_Player","order":1,"path":"objects/O_Player/O_Player.yy",},
     {"name":"Menu","order":1,"path":"rooms/Menu/Menu.yy",},
-    {"name":"Scr_jump","order":1,"path":"scripts/Scr_jump/Scr_jump.yy",},
-    {"name":"S_colider","order":2,"path":"sprites/S_colider/S_colider.yy",},
     {"name":"S_collider","order":1,"path":"sprites/S_collider/S_collider.yy",},
   ],
 }
