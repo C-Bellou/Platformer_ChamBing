@@ -11,14 +11,6 @@ if(jump == true){	/// @DnDAction : YoYo Games.Movement.Set_Speed
 	/// @DnDArgument : "type" "2"
 	vspeed = -speedy;
 
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 4ADA5944
-	/// @DnDParent : 7291338C
-	/// @DnDArgument : "expr" "-17"
-	/// @DnDArgument : "var" "y"
-	y = -17;
-
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 214C60F8

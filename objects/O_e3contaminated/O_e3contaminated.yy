@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"O_colider",
+  "%Name":"O_e3contaminated",
   "eventList":[],
   "managed":true,
-  "name":"O_colider",
+  "name":"O_e3contaminated",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Ennemies",
+    "path":"folders/Objects/Ennemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -26,11 +26,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"S_colliderMain",
-    "path":"sprites/S_colliderMain/S_colliderMain.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
