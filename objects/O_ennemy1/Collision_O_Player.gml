@@ -24,5 +24,5 @@ if(touch == false){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 7017EFCA
 	/// @DnDParent : 1DCCBA8D
-	/// @DnDArgument : "steps" "15"
-	alarm_set(0, 15);}
+	/// @DnDArgument : "steps" "25"
+	alarm_set(0, 25);}
