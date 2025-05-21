@@ -2,6 +2,6 @@
 /// @DnDVersion : 1
 /// @DnDHash : 7710B07F
 /// @DnDApplyTo : {O_Player}
-/// @DnDArgument : "speed" "-38"
+/// @DnDArgument : "speed" "-48"
 /// @DnDArgument : "type" "2"
-with(O_Player) vspeed = -38;
+with(O_Player) vspeed = -48;

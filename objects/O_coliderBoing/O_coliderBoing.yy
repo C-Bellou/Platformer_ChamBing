@@ -9,8 +9,8 @@
   "name":"O_coliderBoing",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Collide",
+    "path":"folders/Objects/Collide.yy",
   },
   "parentObjectId":null,
   "persistent":false,

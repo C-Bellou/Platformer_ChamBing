@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_checkpoint",
+    "path":"sprites/S_checkpoint/S_checkpoint.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
