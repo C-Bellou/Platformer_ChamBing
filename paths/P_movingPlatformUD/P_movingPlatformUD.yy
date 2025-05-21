@@ -1,16 +1,16 @@
 {
   "$GMPath":"",
-  "%Name":"P_movingPlatform",
+  "%Name":"P_movingPlatformUD",
   "closed":false,
   "kind":1,
-  "name":"P_movingPlatform",
+  "name":"P_movingPlatformUD",
   "parent":{
     "name":"Paths",
     "path":"folders/Paths.yy",
   },
   "points":[
-    {"speed":100.0,"x":40.00006,"y":176.0,},
-    {"speed":100.0,"x":1070.0,"y":185.0,},
+    {"speed":100.0,"x":591.12225,"y":558.2355,},
+    {"speed":100.0,"x":586.99396,"y":-50.682373,},
   ],
   "precision":4,
   "resourceType":"GMPath",

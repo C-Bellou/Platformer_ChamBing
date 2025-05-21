@@ -1,13 +1,20 @@
 {
   "$GMObject":"",
   "%Name":"O_e1contaminated",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":37,"eventType":5,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":39,"eventType":5,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"O_e1contaminated",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},"propertyId":{"name":"HP","path":"objects/O_Player/O_Player.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
+  ],
   "parent":{
-    "name":"Ennemies",
-    "path":"folders/Objects/Ennemies.yy",
+    "name":"Contaminated",
+    "path":"folders/Objects/Ennemies/Contaminated.yy",
   },
   "parentObjectId":{
     "name":"O_Player",

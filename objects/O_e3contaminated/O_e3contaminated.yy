@@ -6,8 +6,8 @@
   "name":"O_e3contaminated",
   "overriddenProperties":[],
   "parent":{
-    "name":"Ennemies",
-    "path":"folders/Objects/Ennemies.yy",
+    "name":"Contaminated",
+    "path":"folders/Objects/Ennemies/Contaminated.yy",
   },
   "parentObjectId":null,
   "persistent":false,
