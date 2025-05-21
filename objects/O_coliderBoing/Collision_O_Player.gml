@@ -2,8 +2,8 @@
 /// @DnDVersion : 1
 /// @DnDHash : 7710B07F
 /// @DnDApplyTo : {O_Player}
-/// @DnDArgument : "speed" "-4"
-with(O_Player) speed = -4;
+/// @DnDArgument : "speed" "-28"
+with(O_Player) speed = -28;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
