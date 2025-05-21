@@ -9,8 +9,8 @@
   "name":"O_projectiles",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Ennemies",
+    "path":"folders/Objects/Ennemies.yy",
   },
   "parentObjectId":{
     "name":"O_colliderManager",

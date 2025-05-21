@@ -4,12 +4,17 @@
   "eventList":[],
   "managed":true,
   "name":"O_ennemy4",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_enemyManager","path":"objects/O_enemyManager/O_enemyManager.yy",},"propertyId":{"name":"damage","path":"objects/O_enemyManager/O_enemyManager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"70",},
+  ],
   "parent":{
     "name":"Ennemies",
     "path":"folders/Objects/Ennemies.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_enemyManager",
+    "path":"objects/O_enemyManager/O_enemyManager.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_ennemy4",
+    "path":"sprites/S_ennemy4/S_ennemy4.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

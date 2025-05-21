@@ -90,6 +90,7 @@
     {"id":{"name":"S_ennemy1","path":"sprites/S_ennemy1/S_ennemy1.yy",},},
     {"id":{"name":"S_ennemy2","path":"sprites/S_ennemy2/S_ennemy2.yy",},},
     {"id":{"name":"S_ennemy3","path":"sprites/S_ennemy3/S_ennemy3.yy",},},
+    {"id":{"name":"S_ennemy4","path":"sprites/S_ennemy4/S_ennemy4.yy",},},
     {"id":{"name":"S_interactRange","path":"sprites/S_interactRange/S_interactRange.yy",},},
     {"id":{"name":"S_movingPlatform","path":"sprites/S_movingPlatform/S_movingPlatform.yy",},},
     {"id":{"name":"S_out","path":"sprites/S_out/S_out.yy",},},
@@ -102,8 +103,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"R_Menu","path":"rooms/R_Menu/R_Menu.yy",},},
     {"roomId":{"name":"R_tuto","path":"rooms/R_tuto/R_tuto.yy",},},
+    {"roomId":{"name":"R_Menu","path":"rooms/R_Menu/R_Menu.yy",},},
     {"roomId":{"name":"R_level1","path":"rooms/R_level1/R_level1.yy",},},
     {"roomId":{"name":"R_GameOver","path":"rooms/R_GameOver/R_GameOver.yy",},},
     {"roomId":{"name":"R_echap","path":"rooms/R_echap/R_echap.yy",},},
