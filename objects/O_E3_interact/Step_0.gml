@@ -11,5 +11,6 @@ var l7363C037_0 = collision_point(x + 0, y + 0, O_Player, true, 0);if((l7363C03
 	/// @DnDHash : 34BB9A11
 	/// @DnDParent : 7363C037
 	/// @DnDArgument : "expr" "-10"
+	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "O_Player.speedx"
-	O_Player.speedx = -10;}
+	O_Player.speedx += -10;}

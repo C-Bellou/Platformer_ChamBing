@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 53D07D04
+/// @DnDHash : 21140E3A
 /// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "touch"
-touch = false;
+/// @DnDArgument : "var" "O_Player.invulnerability"
+O_Player.invulnerability = false;

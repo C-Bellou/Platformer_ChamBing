@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_colliderManager",
+  "%Name":"O_cockroach",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_colliderManager",
+  "name":"O_cockroach",
   "overriddenProperties":[],
   "parent":{
-    "name":"Managers",
-    "path":"folders/Objects/Managers.yy",
+    "name":"Ennemies",
+    "path":"folders/Objects/Ennemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_cockroach",
+    "path":"sprites/S_cockroach/S_cockroach.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

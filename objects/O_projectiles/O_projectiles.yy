@@ -13,8 +13,8 @@
     "path":"folders/Objects/Ennemies.yy",
   },
   "parentObjectId":{
-    "name":"O_colliderManager",
-    "path":"objects/O_colliderManager/O_colliderManager.yy",
+    "name":"O_colliderManager_Player",
+    "path":"objects/O_colliderManager_Player/O_colliderManager_Player.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -24,7 +24,6 @@ if(vspeed < 15){	/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDArgument : "x2_relative" "1"
 /// @DnDArgument : "y2" "-259"
 /// @DnDArgument : "y2_relative" "1"
-/// @DnDArgument : "target" ""
 /// @DnDArgument : "obj" "O_colider"
 /// @DnDSaveInfo : "obj" "O_colider"
 var l072A98C9_0 = collision_line(x +  -245, y + -259, x + 245, y + -259, O_colider, true, 1);if((l072A98C9_0)){	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -51,7 +50,6 @@ var l072A98C9_0 = collision_line(x +  -245, y + -259, x + 245, y + -259, O_colid
 /// @DnDArgument : "x2_relative" "1"
 /// @DnDArgument : "y2" "259"
 /// @DnDArgument : "y2_relative" "1"
-/// @DnDArgument : "target" ""
 /// @DnDArgument : "obj" "O_colider"
 /// @DnDSaveInfo : "obj" "O_colider"
 var l71597693_0 = collision_line(x +  -245, y + 259, x + 245, y + 259, O_colider, true, 1);if((l71597693_0)){	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -97,7 +95,6 @@ else{	/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDArgument : "x2_relative" "1"
 /// @DnDArgument : "y2" "245"
 /// @DnDArgument : "y2_relative" "1"
-/// @DnDArgument : "target" ""
 /// @DnDArgument : "obj" "O_colider"
 /// @DnDSaveInfo : "obj" "O_colider"
 var l388F9FBD_0 = collision_line(x +  259, y + -245, x + 259, y + 245, O_colider, true, 1);if((l388F9FBD_0)){	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -124,7 +121,6 @@ var l388F9FBD_0 = collision_line(x +  259, y + -245, x + 259, y + 245, O_colider
 /// @DnDArgument : "x2_relative" "1"
 /// @DnDArgument : "y2" "-245"
 /// @DnDArgument : "y2_relative" "1"
-/// @DnDArgument : "target" ""
 /// @DnDArgument : "obj" "O_colider"
 /// @DnDSaveInfo : "obj" "O_colider"
 var l54DE5B4B_0 = collision_line(x + -259, y + 245, x + -259, y + -245, O_colider, true, 1);if((l54DE5B4B_0)){	/// @DnDAction : YoYo Games.Common.If_Variable

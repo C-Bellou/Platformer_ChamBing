@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"O_ennemy3",
+  "%Name":"O_ennemy3_coded",
   "eventList":[],
   "managed":true,
-  "name":"O_ennemy3",
+  "name":"O_ennemy3_coded",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_ennemy1","path":"objects/O_ennemy1/O_ennemy1.yy",},"propertyId":{"name":"rangeDetect","path":"objects/O_ennemy1/O_ennemy1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"256*7",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_ennemy1","path":"objects/O_ennemy1/O_ennemy1.yy",},"propertyId":{"name":"damage","path":"objects/O_ennemy1/O_ennemy1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"8",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_ennemy1_coded","path":"objects/O_ennemy1_coded/O_ennemy1_coded.yy",},"propertyId":{"name":"rangeDetect","path":"objects/O_ennemy1_coded/O_ennemy1_coded.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"256*7",},
   ],
   "parent":{
     "name":"Ennemies",
     "path":"folders/Objects/Ennemies.yy",
   },
   "parentObjectId":{
-    "name":"O_ennemy1",
-    "path":"objects/O_ennemy1/O_ennemy1.yy",
+    "name":"O_ennemy1_coded",
+    "path":"objects/O_ennemy1_coded/O_ennemy1_coded.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -29,7 +28,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"speedx","filters":[],"listItems":[],"multiselect":false,"name":"speedx","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

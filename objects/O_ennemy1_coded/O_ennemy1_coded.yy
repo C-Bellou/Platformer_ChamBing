@@ -1,20 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"O_ennemy1",
+  "%Name":"O_ennemy1_coded",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_ennemy1",
-  "overriddenProperties":[],
+  "name":"O_ennemy1_coded",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_enemyManager","path":"objects/O_enemyManager/O_enemyManager.yy",},"propertyId":{"name":"HP_ennemy","path":"objects/O_enemyManager/O_enemyManager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_enemyManager","path":"objects/O_enemyManager/O_enemyManager.yy",},"propertyId":{"name":"damage","path":"objects/O_enemyManager/O_enemyManager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+  ],
   "parent":{
     "name":"Ennemies",
     "path":"folders/Objects/Ennemies.yy",
   },
   "parentObjectId":{
-    "name":"O_colliderManager_E",
-    "path":"objects/O_colliderManager_E/O_colliderManager_E.yy",
+    "name":"O_enemyManager",
+    "path":"objects/O_enemyManager/O_enemyManager.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,11 +32,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"HP_e1","filters":[],"listItems":[],"multiselect":false,"name":"HP_e1","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"150","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"rangeDetect","filters":[],"listItems":[],"multiselect":false,"name":"rangeDetect","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"256*5","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"damage","filters":[],"listItems":[],"multiselect":false,"name":"damage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"speedx","filters":[],"listItems":[],"multiselect":false,"name":"speedx","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"jump","filters":[],"listItems":[],"multiselect":false,"name":"jump","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"rangeCollision","filters":[],"listItems":[],"multiselect":false,"name":"rangeCollision","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"280","varType":0,},
   ],
   "resourceType":"GMObject",

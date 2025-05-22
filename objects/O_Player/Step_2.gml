@@ -23,4 +23,12 @@ var l76C3C2CF_0;l76C3C2CF_0 = keyboard_check(vk_left);if (!l76C3C2CF_0){	///
 		/// @DnDArgument : "spriteind" "S_Player"
 		/// @DnDSaveInfo : "spriteind" "S_Player"
 		sprite_index = S_Player;
-		image_index = 0;}}
+		image_index = 0;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 04B6A505
+		/// @DnDParent : 44AB2303
+		/// @DnDArgument : "expr" "false"
+		/// @DnDArgument : "var" "walk"
+		walk = false;}}

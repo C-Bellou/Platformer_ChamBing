@@ -5,7 +5,7 @@
   "managed":true,
   "name":"O_ennemy4",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_enemyManager","path":"objects/O_enemyManager/O_enemyManager.yy",},"propertyId":{"name":"damage","path":"objects/O_enemyManager/O_enemyManager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"70",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_enemyManager","path":"objects/O_enemyManager/O_enemyManager.yy",},"propertyId":{"name":"damage","path":"objects/O_enemyManager/O_enemyManager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
   ],
   "parent":{
     "name":"Ennemies",
@@ -28,7 +28,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"rangeCollision","filters":[],"listItems":[],"multiselect":false,"name":"rangeCollision","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"256*5","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

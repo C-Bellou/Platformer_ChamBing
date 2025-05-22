@@ -12,4 +12,5 @@ instance_create_layer(x + 0, y + 0, "Ennemies", O_projectiles);
 /// @DnDVersion : 1
 /// @DnDHash : 2DD86721
 /// @DnDArgument : "steps" "40"
-alarm_set(0, 40);
+/// @DnDArgument : "alarm" "1"
+alarm_set(1, 40);

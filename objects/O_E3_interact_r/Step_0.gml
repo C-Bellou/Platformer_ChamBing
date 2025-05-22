@@ -17,5 +17,5 @@ var l7C418FC8_0 = instance_place(x + 0, y + 0, [O_Player]);if ((l7C418FC8_0 > 0
 	/// @DnDVersion : 1
 	/// @DnDHash : 6C08E12A
 	/// @DnDParent : 7C418FC8
-	/// @DnDArgument : "var" "O_ennemy3.speedx"
-	O_ennemy3.speedx = 0;}
+	/// @DnDArgument : "var" "O_ennemy3_coded.speedx"
+	O_ennemy3_coded.speedx = 0;}
