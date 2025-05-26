@@ -5,15 +5,15 @@
   "managed":true,
   "name":"O_button_echap",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_buttonManager","path":"objects/O_buttonManager/O_buttonManager.yy",},"propertyId":{"name":"room","path":"objects/O_buttonManager/O_buttonManager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"R_Menu",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_buttonQuit","path":"objects/O_buttonQuit/O_buttonQuit.yy",},"propertyId":{"name":"room","path":"objects/O_buttonQuit/O_buttonQuit.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"R_Menu",},
   ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"O_buttonManager",
-    "path":"objects/O_buttonManager/O_buttonManager.yy",
+    "name":"O_buttonQuit",
+    "path":"objects/O_buttonQuit/O_buttonQuit.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
