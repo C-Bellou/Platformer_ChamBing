@@ -6,8 +6,8 @@
   "name":"O_colider",
   "overriddenProperties":[],
   "parent":{
-    "name":"Collide",
-    "path":"folders/Objects/Collide.yy",
+    "name":"Platform",
+    "path":"folders/Objects/Platform.yy",
   },
   "parentObjectId":null,
   "persistent":false,

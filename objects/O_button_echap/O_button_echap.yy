@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"O_PNJ_test",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"O_button_echap",
+  "eventList":[],
   "managed":true,
-  "name":"O_PNJ_test",
-  "overriddenProperties":[],
+  "name":"O_button_echap",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_buttonManager","path":"objects/O_buttonManager/O_buttonManager.yy",},"propertyId":{"name":"room","path":"objects/O_buttonManager/O_buttonManager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"R_Menu",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"O_interactableManager",
-    "path":"objects/O_interactableManager/O_interactableManager.yy",
+    "name":"O_buttonManager",
+    "path":"objects/O_buttonManager/O_buttonManager.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_PNJ",
-    "path":"sprites/S_PNJ/S_PNJ.yy",
+    "name":"S_button",
+    "path":"sprites/S_button/S_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -133,4 +133,24 @@ else{	/// @DnDAction : YoYo Games.Collisions.If_Collision_Shape
 		/// @DnDHash : 277E65BF
 		/// @DnDParent : 2F364E6B
 		/// @DnDArgument : "var" "vspeed"
-		vspeed = 0;}}
+		vspeed = 0;}
+
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 296A1A49
+	/// @DnDParent : 0387B54D
+	else{	/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 0BDEA754
+		/// @DnDParent : 296A1A49
+		/// @DnDArgument : "expr" "5"
+		/// @DnDArgument : "var" "vspeed"
+		vspeed = 5;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 054F4C47
+		/// @DnDParent : 296A1A49
+		/// @DnDArgument : "expr" "true "
+		/// @DnDArgument : "var" "death"
+		death = true ;}}

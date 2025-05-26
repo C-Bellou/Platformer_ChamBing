@@ -10,8 +10,8 @@
   "name":"O_MovingPlatform",
   "overriddenProperties":[],
   "parent":{
-    "name":"Collide",
-    "path":"folders/Objects/Collide.yy",
+    "name":"Platform",
+    "path":"folders/Objects/Platform.yy",
   },
   "parentObjectId":{
     "name":"O_colider",

@@ -18,6 +18,20 @@ var l793B57B1_0 = false;l793B57B1_0 = instance_exists(O_Player);if(l793B57B1_0
 		/// @DnDArgument : "var" "O_Player.HP"
 		O_Player.HP += -damage;
 	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 78FBE0CA
+		/// @DnDParent : 6EBB51E5
+		/// @DnDArgument : "expr" "true"
+		/// @DnDArgument : "var" "O_Player.invulnerability"
+		O_Player.invulnerability = true;
+	
+		/// @DnDAction : YoYo Games.Instances.Set_Alarm
+		/// @DnDVersion : 1
+		/// @DnDHash : 06BFF8EA
+		/// @DnDParent : 6EBB51E5
+		alarm_set(0, 30);
+	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 372EC9D7
@@ -71,21 +85,7 @@ var l793B57B1_0 = false;l793B57B1_0 = instance_exists(O_Player);if(l793B57B1_0
 					/// @DnDArgument : "expr" "-1"
 					/// @DnDArgument : "expr_relative" "1"
 					/// @DnDArgument : "var" "O_Player.chances"
-					O_Player.chances += -1;
-				
-					/// @DnDAction : YoYo Games.Common.Variable
-					/// @DnDVersion : 1
-					/// @DnDHash : 5D976434
-					/// @DnDParent : 4222D753
-					/// @DnDArgument : "expr" "true"
-					/// @DnDArgument : "var" "O_Player.invulnerability"
-					O_Player.invulnerability = true;
-				
-					/// @DnDAction : YoYo Games.Instances.Set_Alarm
-					/// @DnDVersion : 1
-					/// @DnDHash : 08A3A9E5
-					/// @DnDParent : 4222D753
-					alarm_set(0, 30);}
+					O_Player.chances += -1;}
 			
 				/// @DnDAction : YoYo Games.Common.Else
 				/// @DnDVersion : 1

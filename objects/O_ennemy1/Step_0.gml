@@ -66,13 +66,7 @@ var l72172F80_0 = false;l72172F80_0 = instance_exists(O_Player);if(l72172F80_0
 		/// @DnDParent : 14C832B1
 		/// @DnDArgument : "expr" "false"
 		/// @DnDArgument : "var" "is_detecting"
-		is_detecting = false;
-	
-		/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-		/// @DnDVersion : 1
-		/// @DnDHash : 1E7DE0CF
-		/// @DnDParent : 14C832B1
-		show_debug_message(string("debug message"));}
+		is_detecting = false;}
 
 	/// @DnDAction : YoYo Games.Collisions.If_Collision_Shape
 	/// @DnDVersion : 1.1
