@@ -17,6 +17,7 @@
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Ennemies","folderPath":"folders/Objects/Ennemies.yy","name":"Ennemies","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Contaminated","folderPath":"folders/Objects/Ennemies/Contaminated.yy","name":"Contaminated","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Buttons","folderPath":"folders/Objects/Buttons.yy","name":"Buttons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Managers","folderPath":"folders/Objects/Managers.yy","name":"Managers","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Platform","folderPath":"folders/Objects/Platform.yy","name":"Platform","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -48,7 +49,7 @@
   },
   "name":"Plateformer",
   "resources":[
-    {"id":{"name":"O_button_echap","path":"objects/O_button_echap/O_button_echap.yy",},},
+    {"id":{"name":"O_buttonMenu","path":"objects/O_buttonMenu/O_buttonMenu.yy",},},
     {"id":{"name":"O_buttonQuit","path":"objects/O_buttonQuit/O_buttonQuit.yy",},},
     {"id":{"name":"O_checkpoint","path":"objects/O_checkpoint/O_checkpoint.yy",},},
     {"id":{"name":"O_cockroach","path":"objects/O_cockroach/O_cockroach.yy",},},
@@ -84,6 +85,7 @@
     {"id":{"name":"R_keys","path":"rooms/R_keys/R_keys.yy",},},
     {"id":{"name":"R_level1","path":"rooms/R_level1/R_level1.yy",},},
     {"id":{"name":"R_Menu","path":"rooms/R_Menu/R_Menu.yy",},},
+    {"id":{"name":"R_title","path":"rooms/R_title/R_title.yy",},},
     {"id":{"name":"R_tuto","path":"rooms/R_tuto/R_tuto.yy",},},
     {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
     {"id":{"name":"S_button","path":"sprites/S_button/S_button.yy",},},
@@ -116,6 +118,7 @@
     {"roomId":{"name":"R_GameOver","path":"rooms/R_GameOver/R_GameOver.yy",},},
     {"roomId":{"name":"R_echap","path":"rooms/R_echap/R_echap.yy",},},
     {"roomId":{"name":"R_keys","path":"rooms/R_keys/R_keys.yy",},},
+    {"roomId":{"name":"R_title","path":"rooms/R_title/R_title.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

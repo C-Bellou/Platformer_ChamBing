@@ -29,8 +29,13 @@ var l793B57B1_0 = false;l793B57B1_0 = instance_exists(O_Player);if(l793B57B1_0
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
 		/// @DnDHash : 06BFF8EA
+		/// @DnDApplyTo : {O_Player}
 		/// @DnDParent : 6EBB51E5
-		alarm_set(0, 30);
+		/// @DnDArgument : "steps" "50"
+		with(O_Player) {
+		alarm_set(0, 50);
+		
+		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1

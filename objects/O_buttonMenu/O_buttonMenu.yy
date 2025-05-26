@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"O_button_echap",
-  "eventList":[],
-  "managed":true,
-  "name":"O_button_echap",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_buttonQuit","path":"objects/O_buttonQuit/O_buttonQuit.yy",},"propertyId":{"name":"room","path":"objects/O_buttonQuit/O_buttonQuit.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"R_Menu",},
+  "%Name":"O_buttonMenu",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
+  "managed":true,
+  "name":"O_buttonMenu",
+  "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Buttons.yy",
   },
-  "parentObjectId":{
-    "name":"O_buttonQuit",
-    "path":"objects/O_buttonQuit/O_buttonQuit.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

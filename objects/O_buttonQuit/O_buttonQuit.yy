@@ -8,8 +8,8 @@
   "name":"O_buttonQuit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_button",
+    "path":"sprites/S_button/S_button.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

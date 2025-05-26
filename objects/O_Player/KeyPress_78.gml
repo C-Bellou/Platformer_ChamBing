@@ -12,13 +12,6 @@ if(!(shield == true)){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "var" "invulnerability"
 	invulnerability = true;
 
-	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-	/// @DnDVersion : 1
-	/// @DnDHash : 579E1166
-	/// @DnDParent : 2A02A60E
-	/// @DnDArgument : "msg" ""shield""
-	show_debug_message(string("shield"));
-
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 1DEE395A
