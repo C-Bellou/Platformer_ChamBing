@@ -1,6 +1,5 @@
-/// @DnDAction : YoYo Games.Instances.Change_Instance
+/// @DnDAction : YoYo Games.Common.Function_Call
 /// @DnDVersion : 1
-/// @DnDHash : 617618A2
-/// @DnDArgument : "objind" "O_e1contaminated"
-/// @DnDSaveInfo : "objind" "O_e1contaminated"
-instance_change(O_e1contaminated, true);
+/// @DnDHash : 492B8057
+/// @DnDArgument : "function" "Scr_Calldial("Hello",Mr.PNJ)"
+Scr_Calldial("Hello",Mr.PNJ)();

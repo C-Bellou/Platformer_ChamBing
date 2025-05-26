@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_buttonQuit",
+  "%Name":"O_Play",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_buttonQuit",
+  "name":"O_Play",
   "overriddenProperties":[],
   "parent":{
     "name":"Buttons",
-    "path":"folders/Objects/Buttons.yy",
+    "path":"folders/Objects/UI/Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -25,9 +25,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"room","filters":[],"listItems":[],"multiselect":false,"name":"room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

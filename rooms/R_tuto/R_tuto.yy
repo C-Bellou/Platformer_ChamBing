@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_3DCCDF81","path":"rooms/R_tuto/R_tuto.yy",},
     {"name":"inst_1DCAB78E","path":"rooms/R_tuto/R_tuto.yy",},
     {"name":"inst_C9F6DB6","path":"rooms/R_tuto/R_tuto.yy",},
     {"name":"inst_174B9A7","path":"rooms/R_tuto/R_tuto.yy",},
@@ -18,6 +17,7 @@
     {"name":"inst_5CC5D39B","path":"rooms/R_tuto/R_tuto.yy",},
     {"name":"inst_4B5F47AF","path":"rooms/R_tuto/R_tuto.yy",},
     {"name":"inst_745E0E9E","path":"rooms/R_tuto/R_tuto.yy",},
+    {"name":"inst_BFC4277","path":"rooms/R_tuto/R_tuto.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -29,13 +29,13 @@
         {"$GMRInstance":"v2","%Name":"inst_4B5F47AF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4B5F47AF","objectId":{"name":"O_checkpoint","path":"objects/O_checkpoint/O_checkpoint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2560.0,"y":2048.0,},
       ],"layers":[],"name":"detector","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":512,"gridY":512,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_3DCCDF81","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3DCCDF81","objectId":{"name":"O_ennemy1","path":"objects/O_ennemy1/O_ennemy1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4096.0,"y":1536.0,},
         {"$GMRInstance":"v2","%Name":"inst_1DCAB78E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1DCAB78E","objectId":{"name":"O_colider","path":"objects/O_colider/O_colider.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":11.0,"scaleY":3.0,"x":512.0,"y":5120.0,},
         {"$GMRInstance":"v2","%Name":"inst_C9F6DB6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_C9F6DB6","objectId":{"name":"O_coliderBoing","path":"objects/O_coliderBoing/O_coliderBoing.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":2.0,"x":7168.0,"y":4608.0,},
         {"$GMRInstance":"v2","%Name":"inst_174B9A7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_174B9A7","objectId":{"name":"O_colider","path":"objects/O_colider/O_colider.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.0,"x":5632.0,"y":3072.0,},
         {"$GMRInstance":"v2","%Name":"inst_2289DACD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2289DACD","objectId":{"name":"O_colider","path":"objects/O_colider/O_colider.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":1.0,"x":2560.0,"y":2560.0,},
         {"$GMRInstance":"v2","%Name":"inst_2B93754A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2B93754A","objectId":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2048.0,"y":4096.0,},
         {"$GMRInstance":"v2","%Name":"inst_745E0E9E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_745E0E9E","objectId":{"name":"O_ennemy4","path":"objects/O_ennemy4/O_ennemy4.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3584.0,"y":4608.0,},
+        {"$GMRInstance":"v2","%Name":"inst_BFC4277","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_BFC4277","objectId":{"name":"O_ennemy1_coded","path":"objects/O_ennemy1_coded/O_ennemy1_coded.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4096.0,"y":1536.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

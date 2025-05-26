@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_buttonMenu",
+  "%Name":"O_Guide",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_buttonMenu",
+  "name":"O_Guide",
   "overriddenProperties":[],
   "parent":{
     "name":"Buttons",
-    "path":"folders/Objects/Buttons.yy",
+    "path":"folders/Objects/UI/Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
