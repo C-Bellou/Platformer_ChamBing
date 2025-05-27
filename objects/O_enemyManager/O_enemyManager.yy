@@ -3,7 +3,9 @@
   "%Name":"O_enemyManager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"O_enemyManager",
@@ -13,8 +15,8 @@
     "path":"folders/Objects/Managers.yy",
   },
   "parentObjectId":{
-    "name":"O_colliderManager_E",
-    "path":"objects/O_colliderManager_E/O_colliderManager_E.yy",
+    "name":"O_colliderManager_E_coded",
+    "path":"objects/O_colliderManager_E_coded/O_colliderManager_E_coded.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

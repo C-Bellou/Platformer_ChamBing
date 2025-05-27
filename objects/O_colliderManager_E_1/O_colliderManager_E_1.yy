@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_colliderManager_E",
+  "%Name":"O_colliderManager_E_1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_colliderManager_E",
+  "name":"O_colliderManager_E_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Managers",

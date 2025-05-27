@@ -1,38 +1,38 @@
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
-/// @DnDHash : 2F543BB0
+/// @DnDHash : 3BC3AF71
 /// @DnDArgument : "x" "50"
 /// @DnDArgument : "y" "100"
 /// @DnDArgument : "xscale" "3"
 /// @DnDArgument : "yscale" "3"
 /// @DnDArgument : "caption" ""HP: ""
-/// @DnDArgument : "text" "HP"
-draw_text_transformed(50, 100, string("HP: ") + string(HP), 3, 3, 0);
+/// @DnDArgument : "text" "O_Player.HP"
+draw_text_transformed(50, 100, string("HP: ") + string(O_Player.HP), 3, 3, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
-/// @DnDHash : 4277F4E9
+/// @DnDHash : 4D19AE59
 /// @DnDArgument : "x" "50"
 /// @DnDArgument : "y" "25"
 /// @DnDArgument : "xscale" "3"
 /// @DnDArgument : "yscale" "3"
 /// @DnDArgument : "caption" ""shield: ""
-/// @DnDArgument : "text" "shield_count"
-draw_text_transformed(50, 25, string("shield: ") + string(shield_count), 3, 3, 0);
+/// @DnDArgument : "text" "O_Player.shield_count"
+draw_text_transformed(50, 25, string("shield: ") + string(O_Player.shield_count), 3, 3, 0);
 
 /// @DnDAction : YoYo Games.Loops.For_Loop
 /// @DnDVersion : 1
-/// @DnDHash : 3B780E8A
-/// @DnDArgument : "cond" "i < chances*2"
-for(i = 0; i < chances*2; i += 1) {	/// @DnDAction : YoYo Games.Common.If_Expression
+/// @DnDHash : 5175EE0E
+/// @DnDArgument : "cond" "i < O_Player.chances*2"
+for(i = 0; i < O_Player.chances*2; i += 1) {	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
-	/// @DnDHash : 22EEEAB3
-	/// @DnDParent : 3B780E8A
+	/// @DnDHash : 080CF24B
+	/// @DnDParent : 5175EE0E
 	/// @DnDArgument : "expr" "i%2 == 0"
 	if(i%2 == 0){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 		/// @DnDVersion : 1
-		/// @DnDHash : 3A800E14
-		/// @DnDParent : 22EEEAB3
+		/// @DnDHash : 1AA43334
+		/// @DnDParent : 080CF24B
 		/// @DnDArgument : "x" "64+i*64"
 		/// @DnDArgument : "y" "64"
 		/// @DnDArgument : "sprite" "S_chances"
@@ -41,12 +41,12 @@ for(i = 0; i < chances*2; i += 1) {	/// @DnDAction : YoYo Games.Common.If_Expre
 
 	/// @DnDAction : YoYo Games.Common.Else
 	/// @DnDVersion : 1
-	/// @DnDHash : 3FCB60A1
-	/// @DnDParent : 3B780E8A
+	/// @DnDHash : 25104BFA
+	/// @DnDParent : 5175EE0E
 	else{	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 		/// @DnDVersion : 1
-		/// @DnDHash : 362D3512
-		/// @DnDParent : 3FCB60A1
+		/// @DnDHash : 38EFCF3B
+		/// @DnDParent : 25104BFA
 		/// @DnDArgument : "x" "64+i*64"
 		/// @DnDArgument : "y" "64"
 		/// @DnDArgument : "xscale" "-1"
@@ -56,7 +56,17 @@ for(i = 0; i < chances*2; i += 1) {	/// @DnDAction : YoYo Games.Common.If_Expre
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Healthbar
 /// @DnDVersion : 1
-/// @DnDHash : 3BEF4337
-/// @DnDArgument : "direction" "2"
+/// @DnDHash : 3FBDB9E2
+/// @DnDArgument : "x1" "50"
+/// @DnDArgument : "x1_relative" "1"
+/// @DnDArgument : "y1" "15"
+/// @DnDArgument : "y1_relative" "1"
+/// @DnDArgument : "x2" "10"
+/// @DnDArgument : "x2_relative" "1"
+/// @DnDArgument : "y2" "30"
+/// @DnDArgument : "y2_relative" "1"
 /// @DnDArgument : "value" "25"
-draw_healthbar(0, 0, 0, 0, 25, $FFFFFFFF & $FFFFFF, $FFFFFF & $FFFFFF, $FFFFFF & $FFFFFF, 2, (($FFFFFFFF>>24) != 0), (($FFFFFFFF>>24) != 0));
+/// @DnDArgument : "backcol" "$FF99DDFF"
+/// @DnDArgument : "mincol" "$FFFF6D8F"
+/// @DnDArgument : "maxcol" "$FFFF6D8F"
+draw_healthbar(x + 50, y + 15, x + 10, y + 30, 25, $FF99DDFF & $FFFFFF, $FFFF6D8F & $FFFFFF, $FFFF6D8F & $FFFFFF, 0, (($FF99DDFF>>24) != 0), (($FFFFFFFF>>24) != 0));

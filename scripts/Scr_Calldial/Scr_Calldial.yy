@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Scr_Calldial",
+  "%Name":"Scr_calldial",
   "isCompatibility":false,
   "isDnD":true,
-  "name":"Scr_Calldial",
+  "name":"Scr_calldial",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

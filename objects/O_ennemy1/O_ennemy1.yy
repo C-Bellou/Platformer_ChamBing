@@ -12,10 +12,7 @@
     "name":"Ennemies",
     "path":"folders/Objects/Ennemies.yy",
   },
-  "parentObjectId":{
-    "name":"O_colliderManager_E",
-    "path":"objects/O_colliderManager_E/O_colliderManager_E.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
