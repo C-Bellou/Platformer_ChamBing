@@ -9,14 +9,20 @@
 function Scr_calldial(text, name) {	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 60BF6BCC
-	/// @DnDInput : 3
+	/// @DnDInput : 5
 	/// @DnDParent : 18362B59
 	/// @DnDArgument : "expr" "true"
 	/// @DnDArgument : "expr_1" "text"
 	/// @DnDArgument : "expr_2" "name"
+	/// @DnDArgument : "expr_3" "true"
+	/// @DnDArgument : "expr_4" "false"
 	/// @DnDArgument : "var" "O_dial.show"
-	/// @DnDArgument : "var_1" "O_dial.text_Content"
+	/// @DnDArgument : "var_1" "O_dial.text_content"
 	/// @DnDArgument : "var_2" "O_dial_name.text_content"
+	/// @DnDArgument : "var_3" "O_dial_name.show"
+	/// @DnDArgument : "var_4" "O_Player.walk"
 	O_dial.show = true;
-	O_dial.text_Content = text;
-	O_dial_name.text_content = name;}
+	O_dial.text_content = text;
+	O_dial_name.text_content = name;
+	O_dial_name.show = true;
+	O_Player.walk = false;}

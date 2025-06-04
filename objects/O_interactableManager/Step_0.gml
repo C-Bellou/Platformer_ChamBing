@@ -10,8 +10,8 @@ var l7363C037_0 = collision_point(x + 0, y + 0, O_interactRange, true, 0);if((l
 	/// @DnDVersion : 1
 	/// @DnDHash : 6D846981
 	/// @DnDParent : 7363C037
-	/// @DnDArgument : "key" "ord("V")"
-	var l6D846981_0;l6D846981_0 = keyboard_check_pressed(ord("V"));if (l6D846981_0){	/// @DnDAction : YoYo Games.Instances.Call_User_Event
+	/// @DnDArgument : "key" "ord("B")"
+	var l6D846981_0;l6D846981_0 = keyboard_check_pressed(ord("B"));if (l6D846981_0){	/// @DnDAction : YoYo Games.Instances.Call_User_Event
 		/// @DnDVersion : 1
 		/// @DnDHash : 0DC03289
 		/// @DnDParent : 6D846981

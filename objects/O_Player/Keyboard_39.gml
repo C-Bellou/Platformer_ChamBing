@@ -1,16 +1,17 @@
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 5CB30D60
-/// @DnDArgument : "expr" "true"
-/// @DnDArgument : "var" "walk"
-walk = true;
-
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 38B14869
 /// @DnDArgument : "var" "walk"
 /// @DnDArgument : "value" "true"
-if(walk == true){	/// @DnDAction : YoYo Games.Movement.Set_Speed
+if(walk == true){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 5CB30D60
+	/// @DnDParent : 38B14869
+	/// @DnDArgument : "expr" "1"
+	/// @DnDArgument : "var" "dirx"
+	dirx = 1;
+
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
 	/// @DnDVersion : 1
 	/// @DnDHash : 56D97B7D
 	/// @DnDParent : 38B14869

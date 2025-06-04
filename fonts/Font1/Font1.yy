@@ -107,7 +107,7 @@
     "124":{"character":124,"h":27,"offset":1,"shift":4,"w":2,"x":230,"y":2,},
     "125":{"character":125,"h":27,"offset":0,"shift":4,"w":4,"x":224,"y":2,},
     "126":{"character":126,"h":27,"offset":0,"shift":6,"w":6,"x":52,"y":89,},
-    "9647":{"character":9647,"h":27,"offset":3,"shift":16,"w":10,"x":60,"y":89,},
+    "9647":{"character":9647,"h":27,"offset":3,"shift":10,"w":4,"x":60,"y":89,},
   },
   "hinting":0,
   "includeTTF":false,
@@ -134,10 +134,7 @@
   "sdfSpread":8,
   "size":12.0,
   "styleName":"Regular",
-  "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
-  },
+  "textureGroupId":null,
   "TTFName":"",
   "usesSDF":false,
 }

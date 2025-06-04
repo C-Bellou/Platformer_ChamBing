@@ -64,14 +64,7 @@ if(is_detecting == false){	/// @DnDAction : YoYo Games.Collisions.If_Collision
 			/// @DnDArgument : "var" "y"
 			/// @DnDArgument : "op" "4"
 			/// @DnDArgument : "value" "y+3"
-			if(y >= y+3){	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-				/// @DnDVersion : 1
-				/// @DnDHash : 322DE166
-				/// @DnDParent : 64C4B5C0
-				/// @DnDArgument : "msg" ""splash""
-				show_debug_message(string("splash"));
-			
-				/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+			if(y >= y+3){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 				/// @DnDVersion : 1
 				/// @DnDHash : 70DD1CB2
 				/// @DnDParent : 64C4B5C0

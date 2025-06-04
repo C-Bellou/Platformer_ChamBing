@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_button",
-    "path":"sprites/S_button/S_button.yy",
+    "name":"S_tuto",
+    "path":"sprites/S_tuto/S_tuto.yy",
   },
   "spriteMaskId":null,
   "visible":true,

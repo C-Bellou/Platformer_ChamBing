@@ -3,7 +3,6 @@
   "%Name":"O_toMenu",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"O_toMenu",
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_button",
-    "path":"sprites/S_button/S_button.yy",
+    "name":"S_menu_b",
+    "path":"sprites/S_menu_b/S_menu_b.yy",
   },
   "spriteMaskId":null,
   "visible":false,
